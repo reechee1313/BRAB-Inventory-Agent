@@ -1,0 +1,13 @@
+# BRAB Auction Search Tool – Python dependencies
+#
+# The tool wrapper (brab_auction_tool.py) and the bundled helper
+# (search_auction_data.py) use only the Python standard library
+# (csv, os, json, typing, unittest).
+#
+# ibm-watsonx-orchestrate is pre-installed in the Orchestrate runtime
+# and must NOT be listed here (listing it can cause version conflicts
+# during server-side installation).
+#
+# If additional third-party packages are added to brab_auction_tool.py
+# in the future, pin them here with exact versions, e.g.:
+#   requests==2.32.4

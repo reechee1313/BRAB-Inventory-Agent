@@ -1,0 +1,9 @@
+﻿venv/
+__pycache__/
+*.pyc
+.bob/
+.vscode/
+BRAB_Auction_Data.csv
+.env
+.env.*
+!.env.example
